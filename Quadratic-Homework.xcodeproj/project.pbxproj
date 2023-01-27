@@ -14,6 +14,12 @@
 		ABA8D34C2984978E004188B9 /* Quadratic_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D34B2984978E004188B9 /* Quadratic_HomeworkTests.swift */; };
 		ABA8D3562984978E004188B9 /* Quadratic_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D3552984978E004188B9 /* Quadratic_HomeworkUITests.swift */; };
 		ABA8D3582984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D3572984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift */; };
+		ABA8D365298497B4004188B9 /* ClassicQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D364298497B4004188B9 /* ClassicQuadratic.swift */; };
+		ABA8D366298497B4004188B9 /* ClassicQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D364298497B4004188B9 /* ClassicQuadratic.swift */; };
+		ABA8D367298497B4004188B9 /* ClassicQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D364298497B4004188B9 /* ClassicQuadratic.swift */; };
+		ABA8D369298497DA004188B9 /* NewQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D368298497DA004188B9 /* NewQuadratic.swift */; };
+		ABA8D36A298497DA004188B9 /* NewQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D368298497DA004188B9 /* NewQuadratic.swift */; };
+		ABA8D36B298497DA004188B9 /* NewQuadratic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D368298497DA004188B9 /* NewQuadratic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,8 @@
 		ABA8D3512984978E004188B9 /* Quadratic-HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic-HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA8D3552984978E004188B9 /* Quadratic_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_HomeworkUITests.swift; sourceTree = "<group>"; };
 		ABA8D3572984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_HomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABA8D364298497B4004188B9 /* ClassicQuadratic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicQuadratic.swift; sourceTree = "<group>"; };
+		ABA8D368298497DA004188B9 /* NewQuadratic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuadratic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 			children = (
 				ABA8D3392984978D004188B9 /* Quadratic_HomeworkApp.swift */,
 				ABA8D33B2984978D004188B9 /* ContentView.swift */,
+				ABA8D364298497B4004188B9 /* ClassicQuadratic.swift */,
+				ABA8D368298497DA004188B9 /* NewQuadratic.swift */,
 				ABA8D33D2984978E004188B9 /* Assets.xcassets */,
 				ABA8D33F2984978E004188B9 /* Quadratic_Homework.entitlements */,
 				ABA8D3402984978E004188B9 /* Preview Content */,
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA8D365298497B4004188B9 /* ClassicQuadratic.swift in Sources */,
+				ABA8D369298497DA004188B9 /* NewQuadratic.swift in Sources */,
 				ABA8D33C2984978D004188B9 /* ContentView.swift in Sources */,
 				ABA8D33A2984978D004188B9 /* Quadratic_HomeworkApp.swift in Sources */,
 			);
@@ -268,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA8D36A298497DA004188B9 /* NewQuadratic.swift in Sources */,
 				ABA8D34C2984978E004188B9 /* Quadratic_HomeworkTests.swift in Sources */,
+				ABA8D366298497B4004188B9 /* ClassicQuadratic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA8D367298497B4004188B9 /* ClassicQuadratic.swift in Sources */,
+				ABA8D36B298497DA004188B9 /* NewQuadratic.swift in Sources */,
 				ABA8D3562984978E004188B9 /* Quadratic_HomeworkUITests.swift in Sources */,
 				ABA8D3582984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift in Sources */,
 			);
