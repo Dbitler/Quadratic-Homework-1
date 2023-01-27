@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA8D33A2984978D004188B9 /* Quadratic_HomeworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D3392984978D004188B9 /* Quadratic_HomeworkApp.swift */; };
+		ABA8D33C2984978D004188B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D33B2984978D004188B9 /* ContentView.swift */; };
+		ABA8D33E2984978E004188B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA8D33D2984978E004188B9 /* Assets.xcassets */; };
+		ABA8D3422984978E004188B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA8D3412984978E004188B9 /* Preview Assets.xcassets */; };
+		ABA8D34C2984978E004188B9 /* Quadratic_HomeworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D34B2984978E004188B9 /* Quadratic_HomeworkTests.swift */; };
+		ABA8D3562984978E004188B9 /* Quadratic_HomeworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D3552984978E004188B9 /* Quadratic_HomeworkUITests.swift */; };
+		ABA8D3582984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA8D3572984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABA8D3482984978E004188B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8D32E2984978D004188B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA8D3352984978D004188B9;
+			remoteInfo = "Quadratic-Homework";
+		};
+		ABA8D3522984978E004188B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABA8D32E2984978D004188B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABA8D3352984978D004188B9;
+			remoteInfo = "Quadratic-Homework";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABA8D3362984978D004188B9 /* Quadratic-Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadratic-Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA8D3392984978D004188B9 /* Quadratic_HomeworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_HomeworkApp.swift; sourceTree = "<group>"; };
+		ABA8D33B2984978D004188B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA8D33D2984978E004188B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA8D33F2984978E004188B9 /* Quadratic_Homework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quadratic_Homework.entitlements; sourceTree = "<group>"; };
+		ABA8D3412984978E004188B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABA8D3472984978E004188B9 /* Quadratic-HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic-HomeworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA8D34B2984978E004188B9 /* Quadratic_HomeworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_HomeworkTests.swift; sourceTree = "<group>"; };
+		ABA8D3512984978E004188B9 /* Quadratic-HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadratic-HomeworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA8D3552984978E004188B9 /* Quadratic_HomeworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_HomeworkUITests.swift; sourceTree = "<group>"; };
+		ABA8D3572984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadratic_HomeworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA8D3332984978D004188B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8D3442984978E004188B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8D34E2984978E004188B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA8D32D2984978D004188B9 = {
+			isa = PBXGroup;
+			children = (
+				ABA8D3382984978D004188B9 /* Quadratic-Homework */,
+				ABA8D34A2984978E004188B9 /* Quadratic-HomeworkTests */,
+				ABA8D3542984978E004188B9 /* Quadratic-HomeworkUITests */,
+				ABA8D3372984978D004188B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABA8D3372984978D004188B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8D3362984978D004188B9 /* Quadratic-Homework.app */,
+				ABA8D3472984978E004188B9 /* Quadratic-HomeworkTests.xctest */,
+				ABA8D3512984978E004188B9 /* Quadratic-HomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA8D3382984978D004188B9 /* Quadratic-Homework */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8D3392984978D004188B9 /* Quadratic_HomeworkApp.swift */,
+				ABA8D33B2984978D004188B9 /* ContentView.swift */,
+				ABA8D33D2984978E004188B9 /* Assets.xcassets */,
+				ABA8D33F2984978E004188B9 /* Quadratic_Homework.entitlements */,
+				ABA8D3402984978E004188B9 /* Preview Content */,
+			);
+			path = "Quadratic-Homework";
+			sourceTree = "<group>";
+		};
+		ABA8D3402984978E004188B9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8D3412984978E004188B9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABA8D34A2984978E004188B9 /* Quadratic-HomeworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8D34B2984978E004188B9 /* Quadratic_HomeworkTests.swift */,
+			);
+			path = "Quadratic-HomeworkTests";
+			sourceTree = "<group>";
+		};
+		ABA8D3542984978E004188B9 /* Quadratic-HomeworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABA8D3552984978E004188B9 /* Quadratic_HomeworkUITests.swift */,
+				ABA8D3572984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift */,
+			);
+			path = "Quadratic-HomeworkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA8D3352984978D004188B9 /* Quadratic-Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA8D35B2984978E004188B9 /* Build configuration list for PBXNativeTarget "Quadratic-Homework" */;
+			buildPhases = (
+				ABA8D3322984978D004188B9 /* Sources */,
+				ABA8D3332984978D004188B9 /* Frameworks */,
+				ABA8D3342984978D004188B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quadratic-Homework";
+			productName = "Quadratic-Homework";
+			productReference = ABA8D3362984978D004188B9 /* Quadratic-Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA8D3462984978E004188B9 /* Quadratic-HomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA8D35E2984978E004188B9 /* Build configuration list for PBXNativeTarget "Quadratic-HomeworkTests" */;
+			buildPhases = (
+				ABA8D3432984978E004188B9 /* Sources */,
+				ABA8D3442984978E004188B9 /* Frameworks */,
+				ABA8D3452984978E004188B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA8D3492984978E004188B9 /* PBXTargetDependency */,
+			);
+			name = "Quadratic-HomeworkTests";
+			productName = "Quadratic-HomeworkTests";
+			productReference = ABA8D3472984978E004188B9 /* Quadratic-HomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABA8D3502984978E004188B9 /* Quadratic-HomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA8D3612984978E004188B9 /* Build configuration list for PBXNativeTarget "Quadratic-HomeworkUITests" */;
+			buildPhases = (
+				ABA8D34D2984978E004188B9 /* Sources */,
+				ABA8D34E2984978E004188B9 /* Frameworks */,
+				ABA8D34F2984978E004188B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABA8D3532984978E004188B9 /* PBXTargetDependency */,
+			);
+			name = "Quadratic-HomeworkUITests";
+			productName = "Quadratic-HomeworkUITests";
+			productReference = ABA8D3512984978E004188B9 /* Quadratic-HomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA8D32E2984978D004188B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABA8D3352984978D004188B9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABA8D3462984978E004188B9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABA8D3352984978D004188B9;
+					};
+					ABA8D3502984978E004188B9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABA8D3352984978D004188B9;
+					};
+				};
+			};
+			buildConfigurationList = ABA8D3312984978D004188B9 /* Build configuration list for PBXProject "Quadratic-Homework" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABA8D32D2984978D004188B9;
+			productRefGroup = ABA8D3372984978D004188B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA8D3352984978D004188B9 /* Quadratic-Homework */,
+				ABA8D3462984978E004188B9 /* Quadratic-HomeworkTests */,
+				ABA8D3502984978E004188B9 /* Quadratic-HomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA8D3342984978D004188B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8D3422984978E004188B9 /* Preview Assets.xcassets in Resources */,
+				ABA8D33E2984978E004188B9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8D3452984978E004188B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8D34F2984978E004188B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA8D3322984978D004188B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8D33C2984978D004188B9 /* ContentView.swift in Sources */,
+				ABA8D33A2984978D004188B9 /* Quadratic_HomeworkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8D3432984978E004188B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8D34C2984978E004188B9 /* Quadratic_HomeworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA8D34D2984978E004188B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA8D3562984978E004188B9 /* Quadratic_HomeworkUITests.swift in Sources */,
+				ABA8D3582984978E004188B9 /* Quadratic_HomeworkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABA8D3492984978E004188B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA8D3352984978D004188B9 /* Quadratic-Homework */;
+			targetProxy = ABA8D3482984978E004188B9 /* PBXContainerItemProxy */;
+		};
+		ABA8D3532984978E004188B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABA8D3352984978D004188B9 /* Quadratic-Homework */;
+			targetProxy = ABA8D3522984978E004188B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABA8D3592984978E004188B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA8D35A2984978E004188B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABA8D35C2984978E004188B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quadratic-Homework/Quadratic_Homework.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quadratic-Homework/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.Quadratic-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABA8D35D2984978E004188B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quadratic-Homework/Quadratic_Homework.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quadratic-Homework/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.Quadratic-Homework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABA8D35F2984978E004188B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.Quadratic-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadratic-Homework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quadratic-Homework";
+			};
+			name = Debug;
+		};
+		ABA8D3602984978E004188B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.Quadratic-HomeworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadratic-Homework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Quadratic-Homework";
+			};
+			name = Release;
+		};
+		ABA8D3622984978E004188B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.Quadratic-HomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quadratic-Homework";
+			};
+			name = Debug;
+		};
+		ABA8D3632984978E004188B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.Quadratic-HomeworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quadratic-Homework";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA8D3312984978D004188B9 /* Build configuration list for PBXProject "Quadratic-Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8D3592984978E004188B9 /* Debug */,
+				ABA8D35A2984978E004188B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA8D35B2984978E004188B9 /* Build configuration list for PBXNativeTarget "Quadratic-Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8D35C2984978E004188B9 /* Debug */,
+				ABA8D35D2984978E004188B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA8D35E2984978E004188B9 /* Build configuration list for PBXNativeTarget "Quadratic-HomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8D35F2984978E004188B9 /* Debug */,
+				ABA8D3602984978E004188B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA8D3612984978E004188B9 /* Build configuration list for PBXNativeTarget "Quadratic-HomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA8D3622984978E004188B9 /* Debug */,
+				ABA8D3632984978E004188B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA8D32E2984978D004188B9 /* Project object */;
+}
