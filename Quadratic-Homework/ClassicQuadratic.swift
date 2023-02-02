@@ -16,6 +16,7 @@ class ClassicQuadratic: NSObject {
     var discriminant = 0.0
     var solvedDisc = 0.0
     var errormargin = 0.0
+    //TEST TEST TEST
     
     
     /// This function calculates quadratic equation's analytic solutions, first by finding the discriminant (b^2 - 4ac). Then it performs a switch case, depending on what form the disciminant takes. if the discriminant is equal to or more than zero, then there are not any imaginary numbers to display, and as such the part of the tuple containing the "imaginary" part is displayed as 0, and the "real" part of the tuple calculates the simplified form of the quadratic formula, without the imaginary part.
